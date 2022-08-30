@@ -2,23 +2,21 @@
   "basics": {
     "name": "Hubert Liang",
     "label": "Student",
-    "picture": "hubert.jpg",
+    "picture": "/img/hubert.jpg",
     "email": "hubertl@hawaii.edu",
     "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
+    "website": "https://hooobot.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "mmaluhia", "url": "http://github.com/hooobot" },
+      { "network": "linkedin", "username": "mollymaluhia", "url": "https://www.linkedin.com/in/hubert-liang-13b1231b8/" },
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
+    { "name": "Software Engineering" },
+    { "name": "Cybersecurity" },
+    { "name": "Networking" },
     { "name": "Robotics" },
     { "name": "3D Graphics" }
   ],
@@ -35,9 +33,9 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2024)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2020-09-01",
       "endDate": "Present",
       "courses": [
       ]
