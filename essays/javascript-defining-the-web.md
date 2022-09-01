@@ -6,9 +6,9 @@ title: "JavaScript: Setting the Standards of the Web"
 date: 2022-08-31
 published: true
 labels:
-  - Questions
-  - Answers
-  - StackOverflow
+  - JavaScript
+  - Website
+  - Web Development
 ---
 
 <img width="300px" class="rounded float-start pe-4" src="../img/javascript-reflection/javascript.jpg">
