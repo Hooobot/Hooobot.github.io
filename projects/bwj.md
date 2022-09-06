@@ -6,7 +6,9 @@ title: "Black and White Jam"
 date: 2022
 published: true
 labels:
-  - Lisp
+  - Unity
+  - C#
+  - Game Development
   - GitHub
 summary: "Alongside a group of students, we created the game "Clean Sweep" which was done in only Black and White while incorporating the theme of Loop"
 ---
