@@ -1,14 +1,14 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
-title: "Cotton"
-date: 2014
+image: img/bwj/cleansweep.png
+title: "Black and White Jam"
+date: 2022
 published: true
 labels:
   - Lisp
   - GitHub
-summary: "A text adventure game I developed for ICS 313."
+summary: "A game I was involved in contributing to."
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
