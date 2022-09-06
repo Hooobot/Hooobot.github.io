@@ -13,7 +13,7 @@ labels:
 summary: "An ad blocker hosted on a raspberry pi throughout a home network."
 ---
 
-<img class="img-fluid" src="../img/raspberrypi/raspberry_pi.jpg">
+<img class="img-fluid" src="../img/raspberrypi/raspberry_pi.jpg" width="300" height="300">
 
 Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
 
