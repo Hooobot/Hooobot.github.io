@@ -8,7 +8,7 @@ published: true
 labels:
   - Lisp
   - GitHub
-summary: "Alongside a group of sstudents, we created the game "Clean Sweep" which was done in only Black and White while incorporating the theme of Loop"
+summary: "Alongside a group of students, we created the game "Clean Sweep" which was done in only Black and White while incorporating the theme of Loop"
 ---
 
 <img class="img-fluid" src="../img/cotton/cotton-header.png">
