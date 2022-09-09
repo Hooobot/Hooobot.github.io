@@ -8,7 +8,6 @@ published: true
 labels:
   - StackOverflow
   - JavaScript
-  - Solutions
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/smart-questions/icon_stackoverflow.png">
