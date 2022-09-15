@@ -9,7 +9,7 @@ labels:
   - Unity
   - C#
   - Game Development
-summary: "Clean Sweep is a game created by fellow collaborators for the Black and White Game Jam."
+summary: "Clean Sweep is a game created by fellow collaborators and I for the Black and White Game Jam."
 ---
 
 <div class="text-center p-4">
