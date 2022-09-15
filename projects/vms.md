@@ -44,7 +44,7 @@ whoami
 
 
 <div class="text-center p-4">
-  <img width="1538px" height="328px" src="../img/vm/both1.png" class="img-thumbnail" >
+  <img width="1583px" height="328px" src="../img/vm/both1.png" class="img-thumbnail" >
   <img width="1368px" height="474px" src="../img/vm/both2.png" class="img-thumbnail" >
 </div>
 
@@ -56,8 +56,8 @@ As previously mentioned, we notice that our system share the same files, even te
 In the following pictures I showcase extraction of information by simply reading files that are on the victim system:
 
 <div class="text-center p-4">
-  <img width="640px" height="360px" src="../img/vm/samefilemeta.png" class="img-thumbnail" >
-  <img width="609px" height="467px" src="../img/vm/samefilekali.png" class="img-thumbnail" >
+  <img width="609px" height="467px" src="../img/vm/samefilemeta.png" class="img-thumbnail" >
+  <img width="640px" height="360px" src="../img/vm/samefilekali.png" class="img-thumbnail" >
 </div>
 
 
