@@ -1,14 +1,16 @@
 ---
 layout: project
 type: project
-image: img/arduino/LED-Arduino-circuit.jpg
-title: "Arduino LED Circuit"
-date: 2019
+image: img/vm/vms.jpg
+title: "Virtualization: Sandbox Pentesting"
+date: 2022
 published: true
 labels:
-  - Robotics
-  - Arduino
-  - C++
+  - Virtualization
+  - VirtualBox
+  - VMWare
+  - Kali Linux
+  - Ruby
 summary: "Applied Arduino programming in connecting LED displays and vehicular movement."
 ---
 
