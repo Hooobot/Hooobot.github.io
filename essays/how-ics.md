@@ -16,7 +16,7 @@ labels:
 Computer Science (CS) is a topic that I gradually grew interest in as I got more and more intertwined with technology. In some ways, there is no hard set definition of what CS really is. In a way, each person has their own interpretation of what they would define as computer science, and some focusing on it can further define CS to a curated interest they may have. In the encompassment of what computer science can be, I have yet to fully define it for myself. 
 
 ## What Exists in Computer Science?
-<img width="900px" height="500px" class="rounded float-start pe-4" src="../img/howics/whatcs.jpg">
+<img width="653px" height="498px" class="img-fluid" src="../img/howics/whatcs.jpg">
 <br>
 In the technical aspect, computer science can encompass myriad topics ranging from software engineering, data science, algorithms, cybersecurity, and many more. Each of which can be utilized for the creation of solutions, efficiency, quality of life, and many reasons of which vary per topic. While there exists a demand for computer scientists, it reasonably can be encompassed within the infrastructure of businesses and lifestyles worldwide. However, all of which was not quite apparent to me before I chose this major. 
 
