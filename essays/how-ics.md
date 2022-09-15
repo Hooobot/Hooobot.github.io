@@ -26,8 +26,10 @@ My interest in computer science stems from the involvement I had with computers 
 In my personal perspective, computer science is something that I initially found an interest in without even fully knowing the subject. Believe it or not, having been exposed to it as much as I have, I can confidently say that there is a ton to it that I do not fully understand yet. Similarly, it is still something that I cannot confidently fully commit a definition for. However, I believe that rather than defining it by topics it encompasses, I would define it through the known subjects that it exhibits.
 
 ## My Definition of Computer Science
-How I see CS is three subjects wrapped in one. <br>
+How I see CS is three subjects wrapped in one. 
+<br>
 I would define computer science as the culmination of engineering, science, and mathematics. While there exists myriad interpretations from historical figures of computer science, I feel this fits in a broad scale of interpretation for what CS encompasses. While we provide solutions similar to engineering, there exists a scientific aspect of curiosity and theorizing observations. Similarly, there exists a prominence in mathematics among the computational factors that can be most of what computer scientists do.
 
 Of course, don’t just take my word for it, ask any other computer scientist you know.
+<br>
 After all, they may also have their own interpretation.
