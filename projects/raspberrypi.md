@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/raspberrypi/raspberry_pi.jpg
+image: img/raspberrypi/raspberrylol.jpg
 title: "Raspberry Pi-Hole"
 date: 2021
 published: true
