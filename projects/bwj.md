@@ -100,6 +100,6 @@ Below also depicts another image for better reference of the game:
   <img width="860px" height ="580px" src="../img/bwj/bwj2.png" class="img-thumbnail" >
 </div>
 
-As we subitted this game for the Game Jam, we were ranked out of the other 305 submissions, and held an overall placement of spot #105. Grading was done via specific criterias and how well we fit each one.
+As we submitted this game for the Game Jam, we were ranked out of the other 305 submissions, and held an overall placement of spot #105. Grading was done via specific criterias and how well we fit each one.
 
 If interested, this game is publically available to play on itch.io: [Clean Sweep](https://snekuchan.itch.io/clean-sweep-a-game-about-life-but-its-only-the-mundane-chores-part).
