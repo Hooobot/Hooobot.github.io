@@ -24,16 +24,74 @@ For this project, I was the lead programmer who was responsible for programming 
 
 Here is some code that illustrates how we read values from the line sensors:
 
-```cpp
-byte ADCRead(byte ch)
+```c#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+
+public class Player_Energy : MonoBehaviour
 {
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
+
+    [SerializeField] public float Decrease;
+    [SerializeField] public float charge;
+    // Start is called before the first frame update
+    public float maxEnergy = 100;
+    public float currentEnergy;
+    public GameObject Roomba_Station;
+    public Player_Movement Player;
+    public Energy energyBar;
+    public Vector2 MaxBounds;
+    public Vector2 MinBounds;
+
+    void Start()
+    {
+        currentEnergy = maxEnergy;
+        energyBar.SetMaxEnergy(maxEnergy);
     }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
+
+    // Update is called once per frame
+    void Update()
+    {
+        //Out of Energy Reset (technically tentative for change)
+        if (currentEnergy <= 0)
+        {
+            // this.gameObject.SetActive(false);
+            transform.position = Vector2.Lerp(transform.position, Roomba_Station.transform.position, Time.deltaTime * 100.0f);
+            StartCoroutine(StopPlayer());
+        }
+
+        //Manual Energy Loss (for testing purposes)
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            //LoseEnergy(20);
+        }
+
+        //Energy Drain
+        currentEnergy -= Time.deltaTime*Decrease;
+        energyBar.SetEnergy(currentEnergy);
+
+
+        //Recharge Station
+        if(this.gameObject.transform.position.x <= MaxBounds.x &&
+        this.gameObject.transform.position.x >= MinBounds.x &&
+        this.gameObject.transform.position.y <= MaxBounds.y &&
+        this.gameObject.transform.position.y >= MinBounds.y &&
+        currentEnergy <= maxEnergy)
+        {
+            currentEnergy += Time.deltaTime*charge;
+            energyBar.SetEnergy(currentEnergy);
+        }
+    }
+
+    IEnumerator StopPlayer()
+    {
+        Player.enabled = false;
+        yield return new WaitForSeconds(3.0f);
+        Player.enabled = true;
+    }
 }
 ```
 
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
+This game is publically available to play on itch.io: [Clean Sweep](https://snekuchan.itch.io/clean-sweep-a-game-about-life-but-its-only-the-mundane-chores-part).
