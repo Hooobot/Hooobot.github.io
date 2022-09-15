@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: ""I" CS"
+title: "'I' CS"
 # All dates must be YYYY-MM-DD format!
 date: 2022-09-02
 published: true
@@ -11,7 +11,7 @@ labels:
 ---
 
 
-# How do I See CS
+# How I See CS
 
 Computer Science (CS) is a topic that I gradually grew interest in as I got more and more intertwined with technology. In some ways, there is no hard set definition of what CS really is. In a way, each person has their own interpretation of what they would define as computer science, and some focusing on it can further define CS to a curated interest they may have. In the encompassment of what computer science can be, I have yet to fully define it for myself. 
 
