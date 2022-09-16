@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/vm/vms.jpg
+image: img/vm/vms.png
 title: "Virtualization: Sandbox Pentesting"
 date: 2022
 published: true
