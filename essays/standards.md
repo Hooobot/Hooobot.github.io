@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Rules to Strive By"
 # All dates must be YYYY-MM-DD format!
-date: 2022-09-08
+date: 2022-09-22
 published: true
 labels:
   - ESLint
@@ -12,15 +12,14 @@ labels:
   - Coding Standards
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/smart-questions/icon_stackoverflow.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/standards/eslint.png">
 
 
-  Eric Steven Raymond demonstrates the guidelines to what asking smart questions entails through his essay: “How To Ask Questions The Smart Way”. A smart question entails being precise and informative, clear and punctuated, and with detail and context without user bias. Following such should lead to better responses from those capable by allowing them to understand and assess the situation or goal to be achieved. Especially in terms of the software engineering scope of questions, there lies many uncertainties that may lead to a process from confusion to understanding, and ultimately learning. In a collaborative effort to resolve these, Stack Overflow is a forum site dedicated to posting questions open to the public and allowing the community to answer. Through this, it highlights the importance of asking good questions versus bad questions.
-
-  An instance of a good question could simply be, [“How do JavaScript closures work?”
-](https://stackoverflow.com/questions/111102/how-do-javascript-closures-work). 
-The attached link details a user who posted this question asking for a better understanding of JavaScript closures. What made this question much smarter in accordance with the essay by Raymond was the background knowledge and efforts that the user knew of or tried. Given that the user has background on the concepts within the JavaScript closure and linking a detailed Schema that the user previously studied on, this allows the responder to shape their response and understand what the user is directly asking for without the need for catch-up or unnecessary prior knowledge. In the end, the user was able to receive numerous detailed responses in addition to responses including multiple examples and code snippets to better describe JavaScript closures.
-
-  However, an example that deviates from “the smart way” of asking a question is also found commonly throughout many various media sources and also on Stack Overflow. In the following instance, the user does submit a snippet of the code, however does not properly address the goal, context, nor attempted solutions unlike the previous question. The question title was, [“there is bug in my working code.it does not work properly”](https://stackoverflow.com/questions/56835678/there-is-bug-in-my-working-code-it-does-not-work-properly). Initially, it was apparent that the prompted question lacked clarity in what it was asking. Moreover, the code that was submitted was not fully completed and was solely a snippet, making it even harder to contextualize what it is trying to accomplish. In response, this led to more questions to ask for the context rather than solutions to answer the given question. 
-
-  Rather than focusing on the error and current issue when asking a question, there lies great significance in phrasing and providing context and clarity. By asking better questions, it prompts better responses and ultimately leads to an effective and efficient solution. Doing so also allows for quicker responses to problems and more detailed learning to prevent future issues of the similar concept.
+  While some programmers are aware of proper coding etiquette, more than often many beginners have little to no clue. In fact, even some intermediate programmers may also be unaware. However, it is easily understandable given that each coding language may somewhat carry a unique style, and perhaps it's own Coding Standards. After having utilized ESLint with IntelliJ, it reformatted my perspective on the importance of Coding Standards. I believe that with proper coding standards it is possible to better debug, communicate solutions, and learn languagees.
+  
+# Why Have a Standard?
+  
+  When I started out, I had no concern of locations to comment code, whether or not to use a single line comment or a multi line comments, and I also did not pay too much attention to the indentation of functions and nested loops. Of course, this was quite early on to my venture of programming. Sooner or later I then realized that it was disgusting to look at and even worse to debug. In fact, when most of the time sink spent coding is done on debugging, wouldn't everyone agree that any solution to hasten that process can be idealized as valuable? Coding standards establish a good foundation to better examine, read, and develop code. In doing so, it solves numerous problems that many, if not all programmers would run into. By having neater code, it allows for better understanding of what is being created. No more getting lost in a function or within nested loops, instead it is way easier to determine what corresponds to what, or what each line does.
+  
+  Furthermore, by allowing code to be better understood by oneself, it similarly does the same affect with others. This allows easier understanding from programmers that may be collaborating on the same project, or perhaps programmers that could help in debugging code, or perhaps non-programmers who want to better understand the code. All of which reflects on the pillar of communication, which can be fundamental in creating solutions for customers.
+  
