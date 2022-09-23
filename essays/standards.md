@@ -25,7 +25,7 @@ labels:
   
   Moreover, the use of coding standards can also be somewhat universal. In doing so, it allows for an easier understanding of the similarities between languages regarding syntax and possibly functions. By sharing similar concepts, it allows programmers to better bridge the gap between languages and ultimately have an easier time understanding any particular nuances that may set them apart from one another. Of course, this can help to define scripting versus object-oriented languages, or perhaps help understand how each can achieve similar tasks, or perhaps help to bridge the gap in what makes each more different than the other.
   
-  # Concluding Remarks
+# Concluding Remarks
   
   Through the use of ESLint and IntelliJ, I was able to directly alter my coding style to fit that of ESLint and therefore have an easier time debugging any issues that I came across, which then improved my ability to increase in speed and efficiency. Of course, at first it was not something that I was used to, as I was used to my prior coding style, but after resolving the errors or suggestions that ESLint would prompt, it made me realize how I could turn my code into something much more efficient, or perhaps better shape my thinking to how I approach coding solutions. In doing so, I believe that coding standards have ultimately helped me grow as a programmer.
   
