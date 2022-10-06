@@ -32,6 +32,7 @@ In terms of efficiency, this exponentially decreases the time it would take to c
 Taking it a step further, some implementations of frameworks would take much, much longer to do in raw CSS and is much more visibly appealing.
 Moreover, there exists myriad UI Frameworks that allow for individualistic customization and features to any developer's desire.
 
-An example of which could be the website of Netflix:
+An example of which could be the website of Netflix which runs on the UI Framework of React.js:
 <img class="rounded pe-4" src="../img/frameworkwheel/Netflix.jpg">
+
 
