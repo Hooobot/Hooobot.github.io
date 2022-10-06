@@ -35,4 +35,11 @@ Moreover, there exists myriad UI Frameworks that allow for individualistic custo
 An example of which could be the website of Netflix which runs on the UI Framework of React.js:
 <img class="rounded pe-4" src="../img/frameworkwheel/Netflix.jpg">
 
+## Using vs. Learning
 
+Throughout my use of Bootstrap 5, due to the framework being of a completely new nature for me, I realized there was a lot of information within it that I had to search through. However, the more I looked, the more I realizeed how much the framework contained. From icons to footers, there was a good deal of information to catch up with and fully utilize. Learning the features of it and being able to apply it makes it somewhat similar to learning another language.
+
+I feel that with more practice and time, UI Frameworks allow for an extremely efficient and customizable webpage suited to how the developer may want to present any information or apply any interactive showcasing as desired.
+
+
+Why spend hours on customizing a ton of CSS to make something that could be done easily with UI Frameworks?
