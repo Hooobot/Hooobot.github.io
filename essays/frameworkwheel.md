@@ -32,9 +32,11 @@ In terms of efficiency, this exponentially decreases the time it would take to c
 Taking it a step further, some implementations of frameworks would take much, much longer to do in raw CSS and is much more visibly appealing.
 Moreover, there exists myriad UI Frameworks that allow for individualistic customization and features to any developer's desire.
 
-An example of which could be the website of Netflix which runs on the UI Framework of React.js:
-<img class="rounded pe-4" src="../img/frameworkwheel/Netflix.jpg">
-
+An example of which could be the website of Netflix which runs on the UI Framework of React.js: <br>
+<center>
+<img class="rounded pe-4" src="../img/frameworkwheel/Netflix.jpg" style="text-align: center;">
+</center>
+  
 ## Using vs. Learning
 
 Throughout my use of Bootstrap 5, due to the framework being of a completely new nature for me, I realized there was a lot of information within it that I had to search through. However, the more I looked, the more I realizeed how much the framework contained. From icons to footers, there was a good deal of information to catch up with and fully utilize. Learning the features of it and being able to apply it makes it somewhat similar to learning another language.
