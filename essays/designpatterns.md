@@ -17,23 +17,15 @@ labels:
 
 ## What is Design?
 
-When first learning to make a webpage, it is common to do so solely with HTML and CSS. After all, raw HTML and CSS essentially is what makes a functional webpage. 
-However, as CSS allows niche specifications, if a webpaage is done solely with raw HTML and CSS, chances are making it look nice takes a whole lot of... CSS.
-<br>
-If only there was a way that allowed imports of premade CSS in a sense that allows for developers to import such file and create fancier webpages by using the styles of that import.<br>
-Or should I say, UI Framework.
+Design has been one of the most crucial parts of a website, application, game, and more. To create something for consumer use, is to use design. Design allows for better communication from creator to user. Design can encompass the style of a webpage, how particular parts of an application is accessed, the designated text or images to be shown to the user, or simply how information is portrayed.
 
 ## Importance of Design
 
-Frameworks such as Bootstrap 5 allows for the use of implementable classes within HTML files that allow for easy imports of various CSS styles. 
-Not only would it include paddings or margins, it also contains containers, background colors, floats, and pretty much most of what you can do in CSS, except now with much less code. 
-In terms of efficiency, this exponentially decreases the time it would take to create brand new CSS when there are class instances that allow the creator to make common style changes without the need for specific CSS code details. 
-Taking it a step further, some implementations of frameworks would take much, much longer to do in raw CSS and is much more visibly appealing.
-Moreover, there exists myriad UI Frameworks that allow for individualistic customization and features to any developer's desire.
+Considering the prevelance of design across multiple platforms, design is one of the best ways to grab the attention and entice a user. Whether it be allowing for the user to better access what they intend to achieve or drawing them in, by better portrayal of information it helps to better develop and cultivate a platform for the intended audience.
 
-An example of which could be the website of Netflix which runs on the UI Framework of React.js: <br>
+<br>
 <center>
-<img class="rounded pe-4" src="../img/frameworkwheel/Netflix.jpg" style="text-align: center;">
+<img class="rounded pe-4" src="../img/designpattern/Broadcast.jpg" style="text-align: center;">
 </center>
 <br>
 
