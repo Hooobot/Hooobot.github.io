@@ -26,7 +26,7 @@ Below is an example of what a website design may look like:
 
 <br>
 <center>
-<img class="rounded pe-4" src="../img/designpattern/broadcast.png" style="text-align: center; height: 365px; width: 755px">
+<img class="rounded pe-4" src="../img/designpattern/broadcast.png" style="text-align: center; height: 385px; width: 755px">
 </center>
 <br>
 
