@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "JavaScript: Setting the Standards of the Web"
+title: "JavaScript: A Leading Choice for the Web"
 # All dates must be YYYY-MM-DD format!
 date: 2022-08-31
 published: true
