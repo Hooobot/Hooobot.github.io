@@ -25,8 +25,10 @@ Software enegineering includes but is not limited to functional programming, col
 
 <br>
 <center>
-  <img display="inline-block" width="250px" class="rounded float-start pe-4" src="../img/swe/IntelliJ.png">
-  <img display="inline-block" width="250px" height="250px" class="rounded float-start pe-4" src="../img/swe/Github.png">
+  <p align="middle">
+    <img width="250px" class="rounded float-start pe-4" src="../img/swe/IntelliJ.png">
+    <img width="250px" height="250px" class="rounded float-start pe-4" src="../img/swe/Github.png">\
+  </p>
 </center>
 <br>
 
