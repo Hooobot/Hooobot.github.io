@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Better Questions for Even Greater Responses"
+title: "Branching off Software Engineering Fundamentals"
 # All dates must be YYYY-MM-DD format!
 date: 2022-12-14
 published: true
