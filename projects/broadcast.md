@@ -24,7 +24,7 @@ The problem: UHM students have a “rapid” churn rate in goods and services. S
 The solution: UH-Broadcast is an application for UHM students to facilitate buying and selling of student-related goods and services.
 <br>
 <center>
-  <img src="img/uhb/landing.png">
+  <img src="../img/uhb/landing.png">
 </center>
 <br>
 
