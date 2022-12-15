@@ -22,10 +22,21 @@ This application was designed, implemented, and maintained by five individuals i
 The problem: UHM students have a “rapid” churn rate in goods and services. Students leave the dorm for an on-campus apartment and need to get rid of dorm-specific stuff and acquire apartment-specific stuff. Students graduate and need to get rid of stuff because they’re moving off-island. There is therefore a tremendous amount of “campus-specific” goods and services that could be more effectively recycled and reused if there was an effective marketplace for these specific kinds of items.
 
 The solution: UH-Broadcast is an application for UHM students to facilitate buying and selling of student-related goods and services.
-
+<br>
 <center>
   <img src="img/uhb/landing.png">
 </center>
+<br>
+
+Above shows a picture of the landing page for UH Broadcast. In doing our project, we were also able to implement continuous integration which confirms a working testflow for our pages.
+
+Badge from Integration:
+<br>
+<br>
+[![ci-UH-Broadcast](https://github.com/UH-Broadcast/BroadcastHosting/actions/workflows/ci.yml/badge.svg)](https://github.com/UH-Broadcast/BroadcastHosting/actions/workflows/ci.yml)
+
+<br>
+Moreover, we are able to execute a [Digital Ocean Deployment](http://uh-broadcast.online/).
 
 ### Contributions
 
