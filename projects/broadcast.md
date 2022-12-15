@@ -10,7 +10,7 @@ labels:
   - JavaScript
   - GitHub
   - UH Manoa
-summary: ""
+summary: "UH-Broadcast is an example web application that provides pages to view and post listings of various items for the UH community."
 ---
 
 ## UH Broadcast
