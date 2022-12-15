@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Raspberry Pi-Hole | Hubert Liang | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="/img/hubert.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Hubert Liang | Professional Portfolio">
+    <meta property="og:url" content="https://hooobot.github.io/projects/raspberrypi.html">
+    <meta property="og:title" content="Raspberry Pi-Hole | Hubert Liang | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="/img/hubert.jpg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Raspberry Pi-Hole | Hubert Liang | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Hubert Liang</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Raspberry Pi-Hole</h1>
+ <p><img class="img-fluid" src="../img/raspberrypi/raspberry_pi.jpg" width="300" height="300" /></p>
+
+<p>Raspberry Pi’s are a essentially a smaller computer that can be programmed to do tasks and host taks similar to what computers are capable of.</p>
+
+<p>A Pi-Hole is a network ad blocker that can be set up to connect to with multiple devices, as would a normal network. Essentially, this setup acts as a filter from ads as the Raspberry Pi is being set up on the normal network for the use of blocking ads.</p>
+
+<p>To get set up, I opened up a commandline to initiate an installer which then prompted the following menu:</p>
+
+<div class="text-center p-4">
+  <img src="../img/raspberrypi/PiholePrompt.png" class="img-thumbnail" />
+</div>
+
+<p>Throughout the following, it led to adjustable options to define the distributions of ad listings to enforce for the Pi-Hole. In the picture above it also lists the DNS provider to choose from. Below depicts the ad lists to choose from, automatically negating commonly known lists that usually contain ads that may contain malware or tracking info. Commonly, some of these are on Adblocker extensions that we can get from our browser, however, this guarantees that the extension is on even without browser connection, then additionally ensures that all lists can be chosen.</p>
+
+<div class="text-center p-4">
+  <img src="../img/raspberrypi/PiholeList.png" class="img-thumbnail" />
+</div>
+
+<p>Furthermore, Pi-Hole allows for configuration up to any extra ad sites or lists that you would want to be additionally enforced. <br /> 
+Below depicts the configuration site for creating additions to the blacklist, in addition to more features.</p>
+
+<div class="text-center p-4">
+  <img src="../img/raspberrypi/Piholelast.png" class="img-thumbnail" />
+</div>
+
+<p>To connect, it can be done by just going to the IP address of the Pi-Hole, similar to what can be done with regular firewalls, then through here it additionally tracks the data of percentage blocks, total domains, the domains that are blocked or allowed, and more of personal configurations and additions. I was able to manage the whitelist and update Pi-Hole settings through this management browser. This showcases and increases comfortability with firewall management and search settings, as it is very similar to firewalls that I have previously worked with, albeit with a focus in ad management.</p>
+
+<p>Setting this up on my home network, I got more comfortable and learned more of commandline, ad listings, the importance of adblock, and I learned and was able to implement hosting options that makes Raspberry Pi’s iconic.</p>
+
+<p>For future steps, rather than just implementing a secure home network, I plan to branch off towards setting up a remote VPN that could be connected to while way outside the area of just my home. Instead of only security at home, doing such would allow for better safety practices throughout varying location or for external uses that a VPN could provide.</p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

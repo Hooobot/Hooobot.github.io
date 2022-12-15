@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Virtualization: Sandbox Pentesting | Hubert Liang | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="/img/hubert.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Hubert Liang | Professional Portfolio">
+    <meta property="og:url" content="https://hooobot.github.io/projects/vms.html">
+    <meta property="og:title" content="Virtualization: Sandbox Pentesting | Hubert Liang | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="/img/hubert.jpg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Virtualization: Sandbox Pentesting | Hubert Liang | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Hubert Liang</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Virtualization: Sandbox Pentesting</h1>
+ <div class="text-center p-4">
+  <img width="1158px" height="405px" src="../img/vm/vm1.png" class="img-thumbnail" />
+</div>
+
+<p>With the use of multiple Virtual Machines, I created an environment that allowed for Red Team attacking practices incorporating the aspects of reconnaissance, exploitation, and exfiltration.</p>
+
+<p>The above picture depicts the two environments of Metasploitable 2 (on the left) and Kali Linux (on the right).
+<br /> By the setup of the above machines I utilized Metasploitable 2 as a victim environment to gain access to, whereas the Metasploit Framwork(MSF) within Kali Linux was used to attack the victim machine. To do so, I detailed my steps in the following pictures:</p>
+
+<div class="text-center p-4">
+  <img width="652px" height="615px" src="../img/vm/msf1.png" class="img-thumbnail" />
+  <img width="531px" height="181px" src="../img/vm/msf2.png" class="img-thumbnail" />
+  <img width="442px" height="166px" src="../img/vm/msf3.png" class="img-thumbnail" />
+</div>
+
+<p>In the above pictures we see the startup for the msf console, whereas we additionally load up an exploit of VSFTPD to be thrown at the machine of Metasploitable 2.
+This step incorporates the setup, exploit, and access of the machine we are targetting. By running “exploit” we then see a “shell session found” which indicates that we have successfully gotten access to our victim machine.</p>
+
+<h1 id="indications-of-success">Indications of Success</h1>
+<p>How do we tell if we have successfully connected to the victim machine? <br />
+Rather than just believing that the exploit worked because the prompt said it did, we can further investigate if it was executed and done successfully, then afterward leverage our access to discover or exfiltrate information. Assuming that our exploit worked and that we are essentially on the same system as our victim, we can determine where we are, who we are, and if we are in the same directory given the following bash commands:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">pwd
+cd
+ls
+whoami</span>
+</code></pre></div></div>
+
+<div class="text-center p-4">
+  <img width="1583px" height="328px" src="../img/vm/both1.png" class="img-thumbnail" />
+  <img width="1368px" height="474px" src="../img/vm/both2.png" class="img-thumbnail" />
+</div>
+
+<p>As seen, due to the files sharing the same directory and files as the other, it is fairly proveable that we are succesfully connected to the victim machine.<br />
+Interestingly, due to the service of the exploit being of root priviledge, our user on the attacking machine is labeled as root, which indicates more access than even the user that is currently on the victim machine. This allows for additional commands that may not usually be run by a user that can allow for more major changes or access to otherwise secured areas.</p>
+
+<p>However, what can we do now that we have connected? <br />
+As previously mentioned, we notice that our system share the same files, even text files. So what’s stopping us from reading and taking data from it? <br />
+In the following pictures I showcase extraction of information by simply reading files that are on the victim system:</p>
+
+<div class="text-center p-4">
+  <img width="609px" height="467px" src="../img/vm/samefilemeta.png" class="img-thumbnail" />
+  <img width="640px" height="360px" src="../img/vm/samefilekali.png" class="img-thumbnail" />
+</div>
+
+<h1 id="closing">Closing</h1>
+<p>While I learned a good amount of the Metasploit Framework within Kali, it was neat to develop a good understanding for the virtualization of both machines. Commonly, virtualization is usually done with one manager, whether VirtualBox or VMWare, howver due to Metasploitable 2 offering free installation specifically as a .vmdk file for VMWare, I got VMWare Player for the victim environment of Metasploitable 2 and continued using VirtualBox for Kali Linux. Since the connections were done using private IP’s, there wasn’t much of a trouble connecting one another, especially if it is (hopefully) only me (as intended) using my environment. I figured this project was more of a sandbox to test and learn about tools, especially on how a tool can work considering the attack method I used contains legible Rubly code that exists within the payload and module on the Kali Linux machine.</p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

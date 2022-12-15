@@ -1,0 +1,101 @@
+{
+  "basics": {
+    "name": "Hubert Liang",
+    "label": "Student",
+    "picture": "/img/hubert.jpg",
+    "email": "hubertl@hawaii.edu",
+    "phone": "",
+    "website": "https://hooobot.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "location": { "address": "", "postalCode": "96825", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "hooobot", "url": "http://github.com/hooobot" },
+      { "network": "linkedin", "username": "hubertliang", "url": "https://www.linkedin.com/in/hubert-liang-13b1231b8/" },
+    ]
+  },
+  "interests": [
+    { "name": "Software Engineering" },
+    { "name": "Cybersecurity" },
+    { "name": "Networking" },
+    { "name": "Mobile Development" },
+    { "name": "Cloud Computing" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "Bash", "C", "C#", "Arduino", "Java", "Javascript", "HTML", "CSS" ]
+    },
+    {
+      "name": "Operating Systems",
+      "keywords": [ "Windows OS", "MacOS", "Linux OS", "Git/GitHub" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2024)",
+      "studyType": "B.S.",
+      "startDate": "2020-09-01",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "University of Hawaiʻi at Mānoa Outreach College",
+      "position": "Student Interchanger",
+      "website": "",
+      "startDate": "2021-06-01",
+      "endDate": "2022-03-01",
+      "summary": "Communicate and collaborate with students to aid in language and curriculum development",
+      "highlights": [
+        "Held hourly Interchange session",
+          "Develop English fluency among students",
+          "Strengthen listening comprehension and oral production",
+        "Communicate with coordinator on student growth and tracking progress through paperwork"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "",
+      "website": "",
+      "position": "Honolulu Community College Summer Engineering Program",
+      "startDate": "2019-06-01",
+      "endDate": "2019-07-01",
+      "summary": "Learned and applied various skills regarding computer science and engineering.",
+      "highlights": [
+        "Applied Arduino programming in connecting LED displays and vehicular movement",
+        "Learned and utilized proper soldering techniques and wire stripping"
+      ]
+    },
+    {
+      "organization": "",
+      "website": "",
+      "position": "Professional organization involvement",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Officer, ACM Manoa, 2022-Present",
+        "Officer, Grey Hats at UHM, 2022-Present",
+        "Officer, UH Manoa Game Dev Club, 2022-Present",
+        "Member, Programming and Algorithms (PANDA), 2021-Present",
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Band Achievement Scholarship",
+      "date": "August 2020",
+      "awarder": "University of Hawaiʻi Music Department",
+      "summary": "Awarded by the University of Hawaiʻi Music Department via audition to incoming freshman students "
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="UH Broadcast | Hubert Liang | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="/img/hubert.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Hubert Liang | Professional Portfolio">
+    <meta property="og:url" content="https://hooobot.github.io/projects/broadcast.html">
+    <meta property="og:title" content="UH Broadcast | Hubert Liang | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="/img/hubert.jpg">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>UH Broadcast | Hubert Liang | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Hubert Liang</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">UH Broadcast</h1>
+ <h2 id="uh-broadcast">UH Broadcast</h2>
+<p>UH-Broadcast is an example web application that provides pages to view and post listings of various items for the UH community.
+This application was designed, implemented, and maintained by five individuals including myself and serves to only be accessible by individuals within the hawaii.edu domain.</p>
+
+<h3 id="overview">Overview</h3>
+<p>The problem: UHM students have a “rapid” churn rate in goods and services. Students leave the dorm for an on-campus apartment and need to get rid of dorm-specific stuff and acquire apartment-specific stuff. Students graduate and need to get rid of stuff because they’re moving off-island. There is therefore a tremendous amount of “campus-specific” goods and services that could be more effectively recycled and reused if there was an effective marketplace for these specific kinds of items.</p>
+
+<p>The solution: UH-Broadcast is an application for UHM students to facilitate buying and selling of student-related goods and services.
+<br /></p>
+<center>
+  <img src="../img/uhb/landing.png" />
+</center>
+<p><br /></p>
+
+<p>Above shows a picture of the landing page for UH Broadcast. In doing our project, we were also able to implement continuous integration which confirms a working testflow for our pages.</p>
+
+<p>Badge from Integration:
+<br />
+<br />
+<a href="https://github.com/UH-Broadcast/BroadcastHosting/actions/workflows/ci.yml"><img src="https://github.com/UH-Broadcast/BroadcastHosting/actions/workflows/ci.yml/badge.svg" alt="ci-UH-Broadcast" /></a></p>
+
+<p><br />
+Moreover, we are able to execute a <a href="http://uh-broadcast.online/">Digital Ocean Deployment</a>.</p>
+
+<h3 id="contributions">Contributions</h3>
+
+<p>On my end, I was able to contribute to most of the styling, deployment, and took a jab at back-end. I was interested more in how the item database within our project could be better structured and pushed out to the audience, allowing users to better manage, perceive, and interact with items while still being within audience to the application. One of my earliest contibutions was the implementation of the restriction to @hawaii.edu domains. By specifying the Sign Up page to only allow for “@hawaii.edu” emails it then restricts the user to only be certified from the hawaii domain. By limiting the users in this manner, we can ensure a more catered audience, as per the goal of the application. However, further development might yield for a more cerfied way using the credentials from the UH login system.
+<br />
+As for my front-end work, I contributed most of that to the CSS file of our project, as show below:
+<br /></p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">/* Use 0pen Sans as the default sans serif font. */</span>
+<span class="k">@import</span> <span class="sx">url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700")</span><span class="p">;</span>
+
+<span class="c">/* Set up some CSS variables to theme the application. */</span>
+<span class="nd">:root</span> <span class="p">{</span>
+  <span class="py">--matr-navbar-bg</span><span class="p">:</span> <span class="m">#376551</span><span class="p">;</span>
+  <span class="py">--matr-navbar-bg-rgb</span><span class="p">:</span> <span class="m">10</span><span class="p">,</span> <span class="m">68</span><span class="p">,</span> <span class="m">10</span><span class="p">;</span>
+  <span class="py">--matr-navbar-text-color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+  <span class="py">--matr-navbar-highlight-text</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c">/* Change bootstrap variable values.
+ See https://getbootstrap.com/docs/5.2/customize/css-variables/
+ */</span>
+<span class="nt">body</span> <span class="p">{</span>
+  <span class="py">--bs-dark</span><span class="p">:</span> <span class="n">var</span><span class="p">(</span><span class="n">--matr-navbar-bg</span><span class="p">);</span>
+  <span class="py">--bs-dark-rgb</span><span class="p">:</span> <span class="n">var</span><span class="p">(</span><span class="n">--matr-navbar-bg-rgb</span><span class="p">);</span>
+  <span class="nl">background-image</span><span class="p">:</span> <span class="sx">url("images/ManoaWallpaper.jpg")</span><span class="p">;</span>
+  <span class="nl">background-repeat</span><span class="p">:</span> <span class="nb">no-repeat</span><span class="p">;</span>
+  <span class="nl">background-size</span><span class="p">:</span> <span class="n">cover</span><span class="p">;</span>
+  <span class="nl">height</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+
+
+<span class="nt">body</span> <span class="nc">.navbar</span> <span class="p">{</span>
+  <span class="py">--bs-navbar-active-color</span><span class="p">:</span> <span class="n">var</span><span class="p">(</span><span class="n">--matr-navbar-highlight-text</span><span class="p">);</span>
+  <span class="py">--bs-navbar-brand-color</span><span class="p">:</span> <span class="n">var</span><span class="p">(</span><span class="n">--matr-navbar-text-color</span><span class="p">);</span>
+  <span class="py">--bs-navbar-brand-hover-color</span><span class="p">:</span> <span class="n">var</span><span class="p">(</span><span class="n">--matr-navbar-highlight-text</span><span class="p">);</span>
+  <span class="py">--bs-navbar-color</span><span class="p">:</span> <span class="n">var</span><span class="p">(</span><span class="n">--matr-navbar-text-color</span><span class="p">);</span>
+  <span class="py">--bs-navbar-hover-color</span><span class="p">:</span> <span class="n">var</span><span class="p">(</span><span class="n">--matr-navbar-highlight-text</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nc">.navbar</span> <span class="nt">a</span><span class="nc">.nav-link.active</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="n">var</span><span class="p">(</span><span class="n">--matr-navbar-highlight-text</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nt">footer</span><span class="o">,</span> <span class="nt">footer</span> <span class="nt">a</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="n">var</span><span class="p">(</span><span class="n">--matr-navbar-text-color</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nc">.landing-page-white</span> <span class="p">{</span>
+
+<span class="p">}</span>
+
+<span class="c">/* Set the alert background on the signin and signup pages. */</span>
+<span class="nf">#signin-page</span> <span class="nc">.alert-light</span><span class="o">,</span> <span class="nf">#signup-page</span> <span class="nc">.alert-light</span> <span class="p">{</span>
+  <span class="py">--bs-alert-bg</span><span class="p">:</span> <span class="n">var</span><span class="p">(</span><span class="n">--matr-navbar-bg</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="c">/* Define custom styles */</span>
+<span class="nc">.gray-background</span> <span class="p">{</span>
+  <span class="nl">background-color</span><span class="p">:</span> <span class="n">var</span><span class="p">(</span><span class="n">--matr-navbar-bg</span><span class="p">);</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="n">var</span><span class="p">(</span><span class="n">--bs-dark</span><span class="p">);</span>
+  <span class="nl">padding-top</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+  <span class="nl">padding-bottom</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.navbar</span> <span class="p">{</span>
+  <span class="nl">font-family</span><span class="p">:</span> <span class="s1">"Academy Engraved LET"</span><span class="p">;</span>
+  <span class="nl">font-size</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+  <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">bold</span><span class="p">;</span>
+  <span class="nl">align-items</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nc">.nav-link</span> <span class="p">{</span>
+  <span class="nl">margin-right</span><span class="p">:</span> <span class="m">30px</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#manoaBackground</span> <span class="p">{</span>
+  <span class="nl">background-image</span><span class="p">:</span> <span class="sx">url("public/images/ManoaWallpaper.jpg")</span><span class="p">;</span>
+
+<span class="p">}</span>
+<span class="c">/*
+#adminbutton {
+  background-color: darkgreen;
+} */</span>
+
+<span class="nf">#listitembutton</span> <span class="p">{</span>
+  <span class="nl">background-color</span><span class="p">:</span> <span class="m">#376551</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="nf">#catBar</span><span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">darkgray</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p><br />
+In doing so, I was able to manage changes to most of the site without directly editing each page, saving a good bit of convenience and continuity. However, for some particular pages, such as the Categories page, it required specific edits for margins and such that allowed for a better styling overall.</p>
+
+<h3 id="where-to-learn-more">Where to Learn More</h3>
+
+<p>More information on this project can be found <a href="https://uh-broadcast.github.io/">here</a>. <br />
+Additionally, the deployment for the site can be found <a href="https://uh-broadcast.online">here</a>.</p>
+
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
